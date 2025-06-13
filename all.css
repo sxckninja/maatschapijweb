@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Algemene styling */
+body {
+    font-family: OCR A Std, monospace;
+    color: #d9d9d9; /* Lichtgrijze tekst */
+    background: url("https://images.pexels.com/photos/2872733/pexels-photo-2872733.jpeg?cs=srgb&dl=gray-scale-photo-of-high-rise-buildings-2872733.jpg&fm=jpg") no-repeat center center fixed;
+     background-size: cover;
+    color: #d9d9d9; /* Lichtgrijze tekst */
+    background-color: rgba(0, 0, 0, 0.6); /* Donkere overlay */
+    background-blend-mode: overlay; /* Combineert de afbeelding met de overlay */
+    margin: 0;
+    padding: 0;
+}
+
+.video {
+    display: flex; /* Gebruik flexbox om te centreren */
+    justify-content: center; /* Centreer horizontaal */
+    align-items: center; /* Centreer verticaal */
+    margin: 20px auto; /* Voeg ruimte boven en onder toe */
+}
+
+.video iframe {
+    border-radius: 10px; /* Maak de hoeken van de video afgerond */
+    overflow: hidden; /* Zorg ervoor dat de afgeronde hoeken zichtbaar zijn */
+}
+
+.introimg img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin: 30px auto; /* Voeg wat ruimte boven en onder toe */
+    border-radius: 10px; /* Ronde hoeken voor de afbeelding */
+}
+
+.img2 img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin: 30px auto; /* Voeg wat ruimte boven en onder toe */
+    border-radius: 10px; /* Ronde hoeken voor de afbeelding */
+}
+
+.titel {
+    font-size: 3em; /* Vergroot de tekst */
+    text-transform: uppercase; /* Zet de tekst in hoofdletters */
+    text-align: center; /* Centreer de tekst */
+    color: #d9d9d9; /* Lichtgrijze tekstkleur */
+    margin: 20px 0; /* Voeg wat ruimte boven en onder toe */
+}
+
+/* Algemene styling */
+.selected {
+    background-color: white; /* Witte achtergrond voor de actieve knop */
+    color: #4d4d4d; /* Donkergrijze tekst */
+}
+
+.selected a {
+    color: #4d4d4d; /* Donkergrijze tekst */
+    text-decoration: none;
+}
+
+
+header {
+    width: 960px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #333333; /* Donkergrijze header */
+    color: #d9d9d9; /* Lichtgrijze tekst */
+    padding: 20px;
+    border-radius: 10px;
+ 
+}
+
+ul {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul li {
+    padding: 6px;
+    border: solid 3px #d9d9d9; /* Lichtgrijze rand */
+    display: inline-block;
+    transition: transform 0.2s ease;
+    background-color: #333333; /* Donkergrijze achtergrond */
+}
+
+ul li:hover {
+    transform: scale(1.1);
+    background-color: #4d4d4d; /* Iets lichtere grijze hover */
+}
+
+ul li a {
+    color: #d9d9d9; /* Lichtgrijze tekst */
+    text-decoration: none;
+}
+
+.selected {
+    background-color: #d9d9d9; /* Witte achtergrond voor geselecteerde knop */
+}
+
+.selected a {
+    color: #4d4d4d; /* Donkergrijze tekst */
+}
+
+.imgred img {
+    width: 50%; /* Pas de breedte van de afbeelding aan */
+    height: auto; /* Houd de verhoudingen intact */
+    display: block; /* Zorg ervoor dat de afbeelding gecentreerd kan worden */
+    margin: 30px auto; /* Voeg ruimte boven en onder toe */
+    border-radius: 10px; /* Voeg afgeronde hoeken toe */
+}
+
+/* Secties */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    border: double 4px #4d4d4d; /* Donkergrijze rand */
+    margin: 0 auto;
+    background-color: #333333; /* Donkergrijze achtergrond */
+    border-radius: 10px;
+}
+
+section article {
+    border: 3px solid #4d4d4d; /* Donkergrijze rand */
+    border-radius: 10px;
+    margin: 5px 10px;
+    padding: 10px;
+    background: #4d4d4d; /* Donkergrijze achtergrond */
+    color: #d9d9d9; /* Lichtgrijze tekst */
+}
+
+/* Footer */
+footer {
+    background: #333333; /* Donkergrijze achtergrond */
+    border-radius: 10px;
+    color: #d9d9d9; /* Lichtgrijze tekst */
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Wrapper */
+.wrapper {
+    margin: 0 auto;
+    width: 960px;
+    display: block;
+}
+
+/* Tabellen */
+table {
+    width: 700px;
+    height: 400px;
+    border: 3px solid #4d4d4d; /* Donkergrijze rand */
+    color: #d9d9d9; /* Lichtgrijze tekst */
+    margin-bottom: 20px;
+    background-color: #333333; /* Donkergrijze achtergrond */
+}
+
+td, th {
+    border: 3px solid #4d4d4d; /* Donkergrijze rand */
+    font-family: "Pixelify Sans", serif;
+    color: #d9d9d9; /* Lichtgrijze tekst */
+}
+
+.center-table {
+    margin: 0 auto;
+    background-color: #4d4d4d; /* Donkergrijze achtergrond */
+}
+
+/* Specifieke secties */
+.homebackground {
+    background: url("https://th.bing.com/th/id/R.08d6ee17dae66c345bfdb608b620cbc3?rik=VVUaB0%2bfOKuCqw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fhUukl3e.jpg&ehk=YRfjpqCrlgojYQAWsoPUNyNdFEJa3UQ8E%2bHlxvv9%2b6E%3d&risl=&pid=ImgRaw&r=0") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    position: relative;
+    background-color: rgba(26, 26, 26, 0.8); /* Donkergrijze overlay */
+    background-blend-mode: overlay;
+}
+
+.navintro, .navdeelvraag1, .navdeelvraag2, .navdeelvraag3 {
+    background-color: #333333; /* Donkergrijze achtergrond */
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.introcolor, .deelvraag1color, .deelvraag2color, .deelvraag3color {
+    margin-top: 10px;
+    font-size: 600%;
+    font-family: "Pixelify Sans", serif;
+    text-align: center;
+    color: #d9d9d9; /* Lichtgrijze tekst */
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #4d4d4d; /* Donkergrijze achtergrond */
+}
